@@ -28,6 +28,18 @@
 			}
 		},
 		{
+			"path": "pages/sys/eat/index",
+			"style": {
+				"navigationBarTitleText": "吃什么"
+			}
+		},
+		{
+			"path": "pages/sys/eat/list",
+			"style": {
+				"navigationBarTitleText": "吃什么列表"
+			}
+		},
+		{
 			"path": "pages/sys/msg/form",
 			"style": {
 				"navigationBarTitleText": "查看详情"
@@ -221,9 +233,9 @@
 		"borderStyle": "white",
 		"list": [
 			{
-				"pagePath": "pages/sys/home/index",
-				"iconPath": "static/aidex/tabbar/home_1.png",
-				"selectedIconPath": "static/aidex/tabbar/home_2.png",
+				"pagePath": "pages/sys/eat/index",
+				"iconPath": "static/aidex/tabbar/eat_grey.png",
+				"selectedIconPath": "static/aidex/tabbar/eat_red.png",
 				"text": "吃什么"
 			},
 			 {
@@ -232,12 +244,6 @@
 				"selectedIconPath": "static/aidex/tabbar/msg_2.png",
 				"text": "消息"
 			},
-			// {
-			// 	"pagePath": "pages/sys/home/index",
-			// 	"iconPath": "static/aidex/tabbar/home_1.png",
-			// 	"selectedIconPath": "static/aidex/tabbar/home_2.png",
-			// 	"text": "首页"
-			// },
 			{
 				"pagePath": "pages/sys/workbench/index",
 				"iconPath": "static/aidex/tabbar/apply_1.png",

@@ -66,6 +66,10 @@ const install = (Vue, vm) => {
 			enable: (params = {}) => vm.$u.post(config.adminPath+'/test/testData/enable', params),
 			delete: (params = {}) => vm.$u.post(config.adminPath+'/test/testData/delete', params),
 		},
+		// eat
+		eat: {
+			listEat: (params = {}) => vm.$u.get(config.adminPath+'/system/eat/list', params),
+		},
 		
 	};
 	
